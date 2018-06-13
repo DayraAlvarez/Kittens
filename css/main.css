@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media (max-width: 576px) { /*768 y 992*/
+  .background {
+    background:url(../assets/images/dawn.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    float: left;
+    width: 100%;
+    height:100%
+}
+
+@media (min-width: 768px) { /*768 y 992*/
+  .background {
+    background:url(../assets/images/night.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    float: left;
+    width: 100%;
+    height:200px;
+}
+
+}
+
+@media (min-width: 992px) { /*768 y 992*/
+  .background {
+    background:url(../assets/images/sunny-day.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    float: left;
+    width: 100%;
+    height:200px;
+}
